@@ -1,0 +1,170 @@
+.container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.intro {
+  margin:30px 200px;
+  background-color:#FEFDFF;
+  padding:40px;
+  border-radius:8px;
+  box-shadow:1px 1px 8px #E5E7EF;
+}
+
+.footer {
+  margin:30px 200px;
+  background-color:#FEFDFF;
+  padding:20px;
+  border-radius:8px;
+}
+
+body {
+  background-color:#ECEEF4;
+  font-family: 'Jost', sans-serif;
+  color:#0F084B;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+h1 {
+  color:#0F084B;
+  font-size: 2.2em;
+  margin-top:0;
+}
+
+h2 {
+  font-size:1.2em;
+  font-weight:500;
+}
+
+p {
+  margin:30px auto;
+  line-height: 2;
+}
+
+span {
+  font-weight:400;
+}
+
+#lewagon {
+  font-weight:400;
+  color:#5E71C3;
+  text-decoration:none;
+}
+
+#lewagon:hover {
+  opacity:0.8;
+}
+
+.btn-blue {
+  text-decoration: none;
+  padding:10px 20px;
+  font-weight:400;
+  background-color:#5E71C3;
+  color:#FEFDFF;
+  border-radius:50px;
+  display:inline-block;
+}
+
+.btn-blue:hover {
+  background-color:#0F084B;
+}
+
+img {
+  width: 180px;
+  border-radius:50%;
+}
+
+ul {
+  padding:0;
+}
+
+li {
+  list-style: none;
+  display:inline-block;
+  padding:8px;
+}
+
+li > a > i {
+  color:#5E71C3;
+  font-size:1.4em;
+}
+
+li > a > i:hover {
+  color:#0F084B;
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    margin:30px 80px;
+    padding:40px;
+  }
+
+  .footer {
+    margin:30px 80px;
+    padding:20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .intro {
+    margin:30px 40px;
+    padding:40px;
+  }
+
+  .footer {
+    margin:30px 40px;
+    padding:20px;
+  }
+}
+
+@media (max-width: 490px) {
+  .intro {
+    margin:30px 20px;
+    padding:20px;
+  }
+
+  .footer {
+    margin:20px 20px;
+    padding:10px;
+  }
+
+  h1 {
+    font-size:1.4em;
+  }
+
+  p {
+    font-size:0.8em;
+    margin:10px auto 16px auto;
+  }
+
+  img {
+    width:120px;
+  }
+
+  .btn-blue {
+    padding:8px 16px;
+    font-weight:400;
+    font-size:0.8em;
+  }
+
+  h2 {
+    margin-top:12px;
+    margin-bottom:12px;
+    font-size:1em;
+  }
+
+  ul {
+    margin-top:12px;
+    margin-bottom:12px;
+  }
+
+  li {
+    padding:8px 16px 8px 16px;
+  }
+
+  li > a > i {
+    font-size:1.2em;
+  }
+}
