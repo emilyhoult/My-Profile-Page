@@ -67,9 +67,8 @@ span {
   margin:0px 12px;
 }
 
-.row {
+#flex {
   display: flex;
-  flex-wrap: wrap;
   justify-content:center;
   align-items:center;
 }
