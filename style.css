@@ -63,11 +63,11 @@ span {
   background-color:#0F084B;
 }
 
-#portfolio {
+p#portfolio {
   margin:0px 12px;
 }
 
-#flex {
+div#flex.row {
   display: flex;
   justify-content:center;
   align-items:center;
